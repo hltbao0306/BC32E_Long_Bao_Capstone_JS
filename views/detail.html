@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Capstone2</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- fa5  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" >
+    <!-- INTER FONT  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- main CSS  -->
+    <link rel="stylesheet" href="../css/detail.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container_header">
+            <div class="left">
+                <div class="logo">
+                    <a href="#">
+                        <img src="../assets/img/image 3 (2).png" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="pay">
+                    <a href="#">
+                        <img src="../assets/img/image 8.png" alt="cart">
+                    </a>
+                    <div class="soLuong">
+                        <span>(1)</span>
+                    </div>
+                </div>
+                <div class="login_register">
+                    <div class="login">
+                        <a href="#">Login</a>
+                    </div>
+                    <div class="register">
+                        <a href="#">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="menu">
+        <ul>
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#" class="gender men">Men</a>
+            </li>
+            <li>
+                <a href="#" class="gender woman">Woman</a>
+            </li>
+            <li class="box-kid">
+                <a href="#" class="kid">Kid</a>
+            </li>
+            <li class="sport">
+                <a href="#">Sport</a>
+            </li>
+        </ul>
+    </section>
+    <section class="product_detail">
+        <div class="container">
+            <div class="thumbnail col-md-4">
+                <img src="../assets/img/image 5.png" alt="">
+            </div>
+            <div class="detail col-md-8">
+                <div class="card_detail">
+                    <h1>Product Name</h1>
+                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae veniam aliquam maxime nostrum
+                        sequi perspiciatis? Consectetur in dolor quia vero.</span>
+                    <p>Available size</p>
+                    <ul>
+                        <li><a href="#">38</a></li>
+                        <li><a href="#">39</a></li>
+                        <li><a href="#">40</a></li>
+                        <li><a href="#">41</a></li>
+                        <li><a href="#">42</a></li>
+                    </ul>
+                    <h2>85$</h2>
+                    <div class="soLuong">
+                        <a href="#" class="plus">+</a>
+                        <span>1</span>
+                        <a href="#" class="minus">-</a>
+                    </div>
+                        <button>Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="relate-product">
+        <div class="title">
+            <h2>-Realate Product-</h2>
+        </div>
+        <div class="grid-container">
+            <div class="grid-content row">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_img">
+            <img src="../assets/img/image 9.png" alt="footer img">
+        </div>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- axios CDN  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"
+        integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Models -->
+    <script src="../models/Product.js"></script>
+    <!-- MAIN JS -->
+    <script src="../controllers/detailAjax.js"></script>
+
+    <script src="../controllers/index.js"></script>
+</body>
+
+</html>
